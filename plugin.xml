@@ -7,7 +7,7 @@
             locationURI="popup:org.eclipse.ui.popup.any?after=additions">
          <command
                commandId="RSLauncher.command1"
-               label="Sample Command"
+               label="Launch RS Script"
                style="push">
          </command>
       </menuContribution>
@@ -16,7 +16,7 @@
          point="org.eclipse.ui.commands">
       <category
             id="RSLauncher.category1"
-            name="SampleCategory">
+            name="Launch RS Script">
       </category>
       <command
             categoryId="RSLauncher.category1"
